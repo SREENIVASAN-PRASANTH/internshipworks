@@ -1,0 +1,72 @@
+.page {
+  width: 21cm;
+  
+  border: 3px solid black;
+}
+
+.company-logo{
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+}
+
+p{
+  font-size: 15px;
+}
+.company-name{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.company-address{
+  font-size:15px;
+  margin-top: -8px;
+}
+
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-bottom: none;
+  border-left: none;
+}
+
+th{
+  border: 2px solid black;
+}
+td{
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+}
+
+#table1 tr th{
+  width: 221px;
+  border-left: none;
+}
+
+#table1 tr td{
+  width: 169px;
+}
+
+#table2{
+  width: 100%;
+  border-right: none;
+  border-left: none;
+}
+
+#table2 tr th{
+  background-color: rgb(0, 221, 255);
+}
+
+#table-last-row td{
+  background-color: blanchedalmond;
+}
+
+.note{
+  color: rgb(2, 181, 2);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}
